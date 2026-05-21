@@ -1,0 +1,20 @@
+\begin{table}[h]
+\centering
+\caption{Model Performance - Final Particle Size (mm)}
+\label{tab:performance}
+\begin{tabular}{lccc}
+\toprule
+Model & Configuration & R² & MAE & RMSE \\
+\midrule
+Random Forest & Original & 0.9348 & 0.0612 & 0.0804 \\
+Random Forest & Reduced & 0.9613 & 0.0486 & 0.0620 \\
+Random Forest & Imputed & 0.8773 & 0.1196 & 0.2017 \\
+XGBoost & Original & 0.4627 & 0.1300 & 0.2308 \\
+XGBoost & Reduced & 0.4200 & 0.1312 & 0.2398 \\
+XGBoost & Imputed & 0.9195 & 0.0936 & 0.1634 \\
+ANN & Original & 0.0090 & 0.2303 & 0.3135 \\
+ANN & Reduced & -0.0203 & 0.2462 & 0.3181 \\
+ANN & Imputed & 0.8000 & 0.1565 & 0.2574 \\
+\bottomrule
+\end{tabular}
+\end{table}

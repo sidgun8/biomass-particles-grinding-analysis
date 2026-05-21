@@ -1,0 +1,13 @@
+## Model Performance - Final Particle Size (mm)
+
+| Model | Configuration | R² | MAE | RMSE |
+|-------|---------------|----|----|----|
+| Random Forest | Original (All Features) | 0.9348 | 0.0612 | 0.0804 |
+| Random Forest | Reduced Features | 0.9613 | 0.0486 | 0.0620 |
+| Random Forest | Imputed Data | 0.8773 | 0.1196 | 0.2017 |
+| XGBoost | Original (All Features) | 0.4627 | 0.1300 | 0.2308 |
+| XGBoost | Reduced Features | 0.4200 | 0.1312 | 0.2398 |
+| XGBoost | Imputed Data | 0.9195 | 0.0936 | 0.1634 |
+| ANN | Original (All Features) | 0.0090 | 0.2303 | 0.3135 |
+| ANN | Reduced Features | -0.0203 | 0.2462 | 0.3181 |
+| ANN | Imputed Data | 0.8000 | 0.1565 | 0.2574 |

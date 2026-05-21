@@ -1,0 +1,37 @@
+<h3>Model Performance - Specific Grinding Energy (kJ/kg)</h3>
+<table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse;'>
+<thead>
+<tr style='background-color: #f0f0f0; font-weight: bold;'>
+<th>Model</th><th>Configuration</th><th>R²</th><th>MAE</th><th>RMSE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Random Forest</td><td>Original (All Features)</td><td>0.4325</td><td>36.8074</td><td>54.4622</td>
+</tr>
+<tr>
+<td>Random Forest</td><td>Reduced Features</td><td>0.5180</td><td>32.6283</td><td>50.1888</td>
+</tr>
+<tr>
+<td>Random Forest</td><td>Imputed Data</td><td>0.6270</td><td>98.9202</td><td>309.6218</td>
+</tr>
+<tr>
+<td>XGBoost</td><td>Original (All Features)</td><td>0.5492</td><td>31.5220</td><td>48.5383</td>
+</tr>
+<tr>
+<td>XGBoost</td><td>Reduced Features</td><td>0.5692</td><td>31.6084</td><td>47.4518</td>
+</tr>
+<tr>
+<td>XGBoost</td><td>Imputed Data</td><td>0.6255</td><td>96.5212</td><td>310.2499</td>
+</tr>
+<tr>
+<td>ANN</td><td>Original (All Features)</td><td>0.4797</td><td>33.3662</td><td>52.1459</td>
+</tr>
+<tr>
+<td>ANN</td><td>Reduced Features</td><td>0.3981</td><td>38.4398</td><td>56.0867</td>
+</tr>
+<tr>
+<td>ANN</td><td>Imputed Data</td><td>0.4999</td><td>158.9759</td><td>358.5284</td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,37 @@
+<h3>Model Performance - Final Particle Size (mm)</h3>
+<table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse;'>
+<thead>
+<tr style='background-color: #f0f0f0; font-weight: bold;'>
+<th>Model</th><th>Configuration</th><th>R²</th><th>MAE</th><th>RMSE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Random Forest</td><td>Original (All Features)</td><td>0.9348</td><td>0.0612</td><td>0.0804</td>
+</tr>
+<tr>
+<td>Random Forest</td><td>Reduced Features</td><td>0.9613</td><td>0.0486</td><td>0.0620</td>
+</tr>
+<tr>
+<td>Random Forest</td><td>Imputed Data</td><td>0.8773</td><td>0.1196</td><td>0.2017</td>
+</tr>
+<tr>
+<td>XGBoost</td><td>Original (All Features)</td><td>0.4627</td><td>0.1300</td><td>0.2308</td>
+</tr>
+<tr>
+<td>XGBoost</td><td>Reduced Features</td><td>0.4200</td><td>0.1312</td><td>0.2398</td>
+</tr>
+<tr>
+<td>XGBoost</td><td>Imputed Data</td><td>0.9195</td><td>0.0936</td><td>0.1634</td>
+</tr>
+<tr>
+<td>ANN</td><td>Original (All Features)</td><td>0.0090</td><td>0.2303</td><td>0.3135</td>
+</tr>
+<tr>
+<td>ANN</td><td>Reduced Features</td><td>-0.0203</td><td>0.2462</td><td>0.3181</td>
+</tr>
+<tr>
+<td>ANN</td><td>Imputed Data</td><td>0.8000</td><td>0.1565</td><td>0.2574</td>
+</tr>
+</tbody>
+</table>

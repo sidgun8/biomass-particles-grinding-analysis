@@ -1,0 +1,24 @@
+\begin{table}[h]
+\centering
+\caption{Model Performance Comparison}
+\label{tab:performance_combined}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+Model & Configuration & \multicolumn{2}{c}{Final Particle Size} & \multicolumn{2}{c}{Specific Grinding Energy} \\
+\cmidrule(lr){3-4} \cmidrule(lr){5-6}
+& & R² & MAE & R² & MAE \\
+\midrule
+ANN & Imputed & 0.8000 & 0.1565 & 0.4999 & 158.9759 \\
+ANN & Original & 0.0090 & 0.2303 & 0.4797 & 33.3662 \\
+ANN & Reduced & -0.0203 & 0.2462 & 0.3981 & 38.4398 \\
+Random Forest & Imputed & 0.8773 & 0.1196 & 0.6270 & 98.9202 \\
+Random Forest & Original & 0.9348 & 0.0612 & 0.4325 & 36.8074 \\
+Random Forest & Reduced & 0.9613 & 0.0486 & 0.5180 & 32.6283 \\
+XGBoost & Imputed & 0.9195 & 0.0936 & 0.6255 & 96.5212 \\
+XGBoost & Original & 0.4627 & 0.1300 & 0.5492 & 31.5220 \\
+XGBoost & Reduced & 0.4200 & 0.1312 & 0.5692 & 31.6084 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

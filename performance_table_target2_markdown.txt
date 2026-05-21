@@ -1,0 +1,13 @@
+## Model Performance - Specific Grinding Energy (kJ/kg)
+
+| Model | Configuration | R² | MAE | RMSE |
+|-------|---------------|----|----|----|
+| Random Forest | Original (All Features) | 0.4325 | 36.8074 | 54.4622 |
+| Random Forest | Reduced Features | 0.5180 | 32.6283 | 50.1888 |
+| Random Forest | Imputed Data | 0.6270 | 98.9202 | 309.6218 |
+| XGBoost | Original (All Features) | 0.5492 | 31.5220 | 48.5383 |
+| XGBoost | Reduced Features | 0.5692 | 31.6084 | 47.4518 |
+| XGBoost | Imputed Data | 0.6255 | 96.5212 | 310.2499 |
+| ANN | Original (All Features) | 0.4797 | 33.3662 | 52.1459 |
+| ANN | Reduced Features | 0.3981 | 38.4398 | 56.0867 |
+| ANN | Imputed Data | 0.4999 | 158.9759 | 358.5284 |
